@@ -17,33 +17,13 @@ Al completar este curso, serás capaz de:
 
 ## Contenido del Curso
 
-### 1. Conceptos Básicos
-- Instalación y configuración
-- Sintaxis básica del lenguaje
-- Variables y tipos de datos
-- Estructuras de control
-- Funciones básicas
-
-### 2. Manipulación de Datos Tabulares
-- Importacion de datos
-- Filtrado y selección
-- Operaciones básicas con tablas
-
-### 3. Datos Geoespaciales
-- Lectura de datos geoespaciales
-- Operaciones espaciales
-- Visualización de mapas
-
-### 4. Análisis Estadístico
-- Estadística descriptiva
-- Correlaciones y regresiones básicas
-- Geoestadistica basica
-
-### 5. Visualización de Resultados
-- Gráficos básicos
-- Personalización de visualizaciones
-- Mapas temáticos
-- Exportación de gráficos
+| Unidad | Descripción | Notebook en Colab |
+|--------|-------------|-------------------|
+| **1. Conceptos Básicos** | Instalación y configuración, sintaxis básica del lenguaje, variables y tipos de datos, estructuras de control, funciones básicas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/01_conceptos_basicos.ipynb) |
+| **2. Manipulación de Datos Tabulares** | Importación de datos, filtrado y selección, operaciones básicas con tablas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/02_datos_tabulares.ipynb) |
+| **3. Datos Geoespaciales** | Lectura de datos geoespaciales, operaciones espaciales, visualización de mapas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/03_datos_geoespaciales.ipynb) |
+| **4. Análisis Estadístico** | Estadística descriptiva, correlaciones y regresiones básicas, geoestadística básica | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/04_analisis_estadistico.ipynb) |
+| **5. Visualización de Resultados** | Gráficos básicos, personalización de visualizaciones, mapas temáticos, exportación de gráficos | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/05_visualizacion.ipynb) |
 
 ## Estructura del Repositorio
 
