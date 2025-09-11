@@ -1,5 +1,7 @@
 # Configuración de Julia en Google Colab
 
+[<img src="https://img.shields.io/badge/README-Ver%20README-blue?style=flat-square" alt="Ver README" height="18">](./README.md)
+
 ## Introducción
 
 Google Colab es una plataforma gratuita que permite ejecutar notebooks de Jupyter en la nube. Por defecto, Colab utiliza Python como lenguaje de programación, pero es posible configurarlo para usar Julia siguiendo los pasos que se describen a continuación.
