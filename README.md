@@ -12,17 +12,17 @@ Al completar este curso, serás capaz de:
 
 - Escribir programas básicos en Julia
 - Manipular y analizar datos tabulares
-- Trabajar con datos geoespaciales
-- Realizar análisis estadísticos básicos
 - Crear visualizaciones efectivas
+- Leer y visualizar datos geoespaciales
 
 ## Contenido del Curso
 
-| Unidad                      | Descripción                                                                                                                      | Notebook en Colab                                                                                                                                                                                    |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Conceptos Básicos**    | Instalación y configuración, sintaxis básica del lenguaje, variables y tipos de datos, estructuras de control, funciones básicas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/01_conceptos_basicos.ipynb)    |
-| **2. Analisis de Datos**    | Importación, manipulacion, analisis y visualizacion de datos                                                                     | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/02_analisis_datos.ipynb)       |
-| **3. Analisis Geoespacial** | Lectura de datos geoespaciales, operaciones espaciales, visualización de mapas                                                   | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/03_analisis_geoespacial.ipynb) |
+| Unidad                      | Descripción                                                                                           | Notebook en Colab                                                                                                                                                                                    |
+| --------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0. Configuraciones**      | Conceptos básicos del lenguaje, variables y tipos de datos, estructuras de control, funciones básicas | [Configuracion Inicial](ColabConfig.md)                                                                                                                                                              |
+| **1. Conceptos Básicos**    | Conceptos básicos del lenguaje, variables y tipos de datos, estructuras de control, funciones básicas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/01_conceptos_basicos.ipynb)    |
+| **2. Analisis de Datos**    | Importación, manipulacion, analisis y visualizacion de datos tabulares                                | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/02_analisis_datos.ipynb)       |
+| **3. Analisis Geoespacial** | Lectura de datos geoespaciales, operaciones espaciales, visualización de mapas                        | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/03_analisis_geoespacial.ipynb) |
 
 ## Estructura del Repositorio
 
@@ -34,14 +34,11 @@ Al completar este curso, serás capaz de:
 ## Requisitos Previos
 
 - Conocimientos básicos de programación (cualquier lenguaje)
-- Familiaridad con conceptos estadísticos elementales
 
 ## Cómo Usar Este Curso
 
-1. Comienza con los notebooks en orden numérico
+1. Comienza con los notebooks en orden numérico (crea un copia en tu Google Drive)
 2. Practica con los ejercicios propuestos
-3. Consulta las soluciones solo después de intentarlo
-4. Experimenta con los datos proporcionados
 
 ## Ventajas de Usar Google Colab
 
@@ -49,15 +46,7 @@ Al completar este curso, serás capaz de:
 - **Recursos gratuitos**: GPU y RAM disponibles sin costo
 - **Colaboración fácil**: Comparte notebooks con un clic
 - **Guardado automático**: Tus cambios se guardan en Google Drive
-- **Multiplataforma**: Funciona en cualquier dispositivo con navegador
-
-## Paquetes Utilizados
-
-- **DataFrames.jl**: Manipulación de datos tabulares
-- **CSV.jl**: Lectura y escritura de archivos CSV
-- **Plots.jl**: Visualización de datos
-- **StatsBase.jl**: Estadística básica
-- **ArchGDAL.jl**: Datos geoespaciales
+- **Multiplataforma**: Funciona en cualquier dispositivo
 
 ## Recursos Adicionales
 
