@@ -10,6 +10,8 @@ Google Colab es una plataforma gratuita que permite ejecutar notebooks de Jupyte
 2. **Cambia el kernel**:
    - Ve al menú `Runtime` → `Change runtime type`
    - En el dropdown que dice "Runtime type", selecciona `Julia`
+   - En "Hardware accelerator", seleccion `CPU`
+   - En el dropdown "Runtime version", selecciona `Latest (recommended)`
    - Haz clic en `Save`
 
 ### Paso 4: Verificar la Configuración
@@ -20,38 +22,15 @@ Ejecuta la siguiente celda para verificar que Julia está funcionando correctame
 # Verificar la versión de Julia
 println("Julia version: ", VERSION)
 
-# Verificar que los paquetes básicos funcionan
-using Pkg
-println("Paquetes instalados:")
-Pkg.status()
-```
-
-## Instalación de Paquetes Adicionales
-
-Para instalar paquetes adicionales de Julia que utilizaremos en el curso:
-
-```julia
-using Pkg
-
-# Paquetes para análisis de datos
-Pkg.add(["DataFrames", "CSV", "Plots", "StatsPlots"])
-
-# Paquetes para análisis geoespacial
-Pkg.add(["ArchGDAL", "GeoInterface", "GeoDataFrames"])
-
-# Otros paquetes útiles
-Pkg.add(["BenchmarkTools", "PlutoUI"])
+# Verificar los paquetes pre-instalados
+using Pkg; Pkg.status()
 ```
 
 ## Solución de Problemas Comunes
 
-### Problema: No aparece Julia en las opciones de Runtime
-
-**Solución**: Asegúrate de estar usando la versión más reciente de Google Colab. Si no aparece Julia, puede ser que tu cuenta necesite acceso a la funcionalidad. Intenta crear un nuevo notebook.
-
 ### Problema: Error al cambiar el runtime
 
-**Solución**: Intenta refrescar la página y crear un nuevo notebook con Julia desde el inicio.
+**Solución**: Intenta refrescar la página.
 
 ### Problema: El notebook se queda "conectando"
 
@@ -66,5 +45,4 @@ Pkg.add(["BenchmarkTools", "PlutoUI"])
 ## Recursos Adicionales
 
 - [Documentación oficial de Julia](https://docs.julialang.org/)
-- [Tutoriales de Julia para principiantes](https://julialang.org/learning/)
 - [Paquetes de Julia](https://juliapackages.com/)
