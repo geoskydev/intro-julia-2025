@@ -1,6 +1,6 @@
 # Configuración de Julia en Google Colab
 
-[<img src="https://img.shields.io/badge/README-Ver%20README-blue?style=flat-square" alt="Ver README" height="18">](./README.md)
+[![Ver README](https://img.shields.io/badge/Ver%20README-blue?style=flat-square)](./README.md)
 
 ## Introducción
 
