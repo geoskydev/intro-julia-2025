@@ -9,6 +9,7 @@ Julia es un lenguaje de programación moderno diseñado para computación cient�
 ## Objetivos del Curso
 
 Al completar este curso, serás capaz de:
+
 - Escribir programas básicos en Julia
 - Manipular y analizar datos tabulares
 - Trabajar con datos geoespaciales
@@ -17,20 +18,17 @@ Al completar este curso, serás capaz de:
 
 ## Contenido del Curso
 
-| Unidad | Descripción | Notebook en Colab |
-|--------|-------------|-------------------|
-| **1. Conceptos Básicos** | Instalación y configuración, sintaxis básica del lenguaje, variables y tipos de datos, estructuras de control, funciones básicas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/01_conceptos_basicos.ipynb) |
-| **2. Manipulación de Datos Tabulares** | Importación de datos, filtrado y selección, operaciones básicas con tablas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/02_datos_tabulares.ipynb) |
-| **3. Datos Geoespaciales** | Lectura de datos geoespaciales, operaciones espaciales, visualización de mapas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/03_datos_geoespaciales.ipynb) |
-| **4. Análisis Estadístico** | Estadística descriptiva, correlaciones y regresiones básicas, geoestadística básica | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/04_analisis_estadistico.ipynb) |
-| **5. Visualización de Resultados** | Gráficos básicos, personalización de visualizaciones, mapas temáticos, exportación de gráficos | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/05_visualizacion.ipynb) |
+| Unidad                      | Descripción                                                                                                                      | Notebook en Colab                                                                                                                                                                                    |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Conceptos Básicos**    | Instalación y configuración, sintaxis básica del lenguaje, variables y tipos de datos, estructuras de control, funciones básicas | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/01_conceptos_basicos.ipynb)    |
+| **2. Analisis de Datos**    | Importación, manipulacion, analisis y visualizacion de datos                                                                     | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/02_analisis_datos.ipynb)       |
+| **3. Analisis Geoespacial** | Lectura de datos geoespaciales, operaciones espaciales, visualización de mapas                                                   | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoskydev/intro-julia-2025/blob/main/notebooks/03_analisis_geoespacial.ipynb) |
 
 ## Estructura del Repositorio
 
 ```
-├── notebooks/          # Notebooks con lecciones
-├── datos/              # Conjuntos de datos
-└── soluciones/         # Notebooks con soluciones
+├── notebooks/     # Notebooks con lecciones
+└── datos/         # Conjuntos de datos
 ```
 
 ## Requisitos Previos
@@ -69,6 +67,7 @@ Al completar este curso, serás capaz de:
 ## Contribuciones
 
 Si encuentras errores o tienes sugerencias para mejorar el curso, no dudes en:
+
 - Abrir un issue
 - Enviar un pull request
 - Contactar al instructor
@@ -76,4 +75,3 @@ Si encuentras errores o tienes sugerencias para mejorar el curso, no dudes en:
 ## Licencia
 
 Este material está disponible bajo licencia [MIT](LICENSE).
-
